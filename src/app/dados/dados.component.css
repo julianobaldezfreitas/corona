@@ -1,0 +1,12 @@
+.fundo {
+  background-color: whitesmoke;
+}
+
+.tamanho-fonte {
+  font-size: 150%;
+}
+
+.tamanho-fonte-numero {
+  font-size: large;
+  font-weight: bold;
+}
