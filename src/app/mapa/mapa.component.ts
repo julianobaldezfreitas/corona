@@ -72,11 +72,11 @@ export class MapaComponent implements OnInit {
           anchor: [0.5, 0.5],
           anchorXUnits: "fraction",
           anchorYUnits: "fraction",
-          src: "assets/img/my-icon.jpg"
+          src: "assets/img/marker.png"
         })
       })
     });
 
-    // this.map.addLayer(vectorLayer);
+    this.map.addLayer(vectorLayer);
   }
 }
