@@ -39,7 +39,7 @@ export class MapaComponent implements OnInit {
       ],
       view: new ol.View({
         center: ol.proj.fromLonLat([-53.338623046875, -29.62122111378448]), //lat: -29.62122111378448 long: -53.338623046875
-        zoom: 7
+        zoom: 6
       })
     });
 
